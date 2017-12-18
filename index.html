@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shawn Blick's GitHub Pages WebSite</title>
+		<meta charset="utf-8" />
+
+    <link rel="stylesheet" href= "" />
+
+      <style>
+        body {
+          font-family: Tahoma, Arial ;          
+          background-color: beige ;
+
+        }
+
+      </style>
+	</head>
+	
+  <body>
+		<h2>The main page for Shawn Blick</h2>
+    <hr size="10px" />
+
+    <h3>Will be adding stuff shortly </h3>
+
+    <ul>
+      <li>Need to add more content</li>
+      <li>Add styles to page</li>
+      <li>Use GitHub pages template to build out pages</li>
+      <li>TTD</li>
+    </ul>
+
+		<!-- Add buttons to initiate auth sequence and sign out -->
+		<button id="authorize-button" style="display: none;">Authorize</button>
+		
+    <pre id="content"></pre>
+
+    <script type="text/javascript">
+
+      function initClient() {
+       authorizeButton.onclick = alert("You clicked me");
+       return 0;
+      }
+
+      function updateSigninStatus(isSignedIn) {
+        if (isSignedIn) {
+          authorizeButton.style.display = 'none';
+        } else {
+          authorizeButton.style.display = 'block';
+          
+        }
+      }
+
+
+  </body>
+</html>
